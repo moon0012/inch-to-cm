@@ -45,6 +45,7 @@
             --text-primary: #1D1D1F;
             --text-secondary: #86868B;
             --success-color: #34C759;
+            --warning-color: #FF9500;
             --border-color: #E5E5EA;
             --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             --border-radius: 12px;
@@ -300,6 +301,53 @@
         .mb-30 {
             margin-bottom: 30px;
         }
+
+        /* Demo Notice Styles */
+        .demo-notice {
+            background: rgba(255, 149, 0, 0.1);
+            border: 2px solid var(--warning-color);
+            border-radius: var(--border-radius);
+            padding: 15px 20px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--warning-color);
+            font-weight: 500;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        .close-demo-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--warning-color);
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .close-demo-btn:hover {
+            background: rgba(255, 149, 0, 0.2);
+            transform: scale(1.1);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
 <body>
@@ -313,6 +361,11 @@
         <section class="tool-overview">
             <h2>About This Conversion Tool</h2>
             <p>Our inch to cm converter provides instant and accurate conversions between inches and centimeters. Whether you're working on DIY projects, sewing, engineering, or any task requiring precise length measurements, this tool offers reliable conversions with a clean, intuitive interface. The conversion is based on the standard conversion rate where 1 inch equals exactly 2.54 centimeters. <a href="blogs/how-to-use-inch-to-cm-converter.html" style="color: var(--primary-color); text-decoration: none; font-weight: 500;">Learn how to use this tool effectively</a> with our comprehensive guide.</p>
+            
+            <div class="demo-notice" id="demo-notice">
+                <span>🔍 Demo values showing: 10 inches = 25.4 centimeters</span>
+                <button class="close-demo-btn" onclick="closeDemo()">×</button>
+            </div>
         </section>
 
         <section class="converter-section">
@@ -454,6 +507,19 @@
         inchesInput.addEventListener('input', updateConversions);
         cmInput.addEventListener('input', updateConversions);
 
+        // Close demo function
+        function closeDemo() {
+            inchesInput.value = '';
+            cmInput.value = '';
+            updateConversions();
+            
+            // Hide the demo notice
+            const demoNotice = document.getElementById('demo-notice');
+            if (demoNotice) {
+                demoNotice.style.display = 'none';
+            }
+        }
+
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
             populateConversionTable();
@@ -462,13 +528,6 @@
             inchesInput.value = '10';
             cmInput.value = '25.4';
             updateConversions();
-            
-            // Clear example values after a short delay
-            // setTimeout(() => {
-            //     inchesInput.value = '';
-            //     cmInput.value = '';
-            //     updateConversions();
-            // }, 2000);
         });
 
         // Handle keyboard events for better UX
