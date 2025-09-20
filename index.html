@@ -74,18 +74,30 @@
             padding: 40px 0;
         }
 
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+
         .logo {
             font-size: 2.5rem;
             font-weight: 700;
             color: var(--primary-color);
-            margin-bottom: 10px;
+            line-height: 1.2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 3.6rem; /* 3rem * 1.2 line-height */
         }
 
         h1 {
             font-size: 3rem;
             font-weight: 700;
             color: var(--text-primary);
-            margin-bottom: 16px;
+            /* margin-bottom: 16px; */
             line-height: 1.2;
         }
 
@@ -254,6 +266,11 @@
 
         /* Responsive Design */
         @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
             h1 {
                 font-size: 2.2rem;
             }
@@ -353,20 +370,12 @@
 <body>
     <div class="container">
         <header>
-            <div class="logo">📏</div>
-            <h1>Inch to CM Converter</h1>
+            <div class="header-content">
+                <div class="logo">📏</div>
+                <h1>Inch to CM Converter</h1>
+            </div>
             <p class="subtitle">Convert between inches and centimeters instantly with our accurate and easy-to-use conversion tool</p>
         </header>
-
-        <section class="tool-overview">
-            <h2>About This Conversion Tool</h2>
-            <p>Our inch to cm converter provides instant and accurate conversions between inches and centimeters. Whether you're working on DIY projects, sewing, engineering, or any task requiring precise length measurements, this tool offers reliable conversions with a clean, intuitive interface. The conversion is based on the standard conversion rate where 1 inch equals exactly 2.54 centimeters. <a href="blogs/how-to-use-inch-to-cm-converter.html" style="color: var(--primary-color); text-decoration: none; font-weight: 500;">Learn how to use this tool effectively</a> with our comprehensive guide.</p>
-            
-            <div class="demo-notice" id="demo-notice">
-                <span>🔍 Demo values showing: 10 inches = 25.4 centimeters</span>
-                <button class="close-demo-btn" onclick="closeDemo()">×</button>
-            </div>
-        </section>
 
         <section class="converter-section">
             <div class="converter-card">
@@ -417,6 +426,16 @@
                     <!-- Table will be populated by JavaScript -->
                 </tbody>
             </table>
+        </section>
+
+        <section class="tool-overview">
+            <h2>About This Conversion Tool</h2>
+            <p><a href="blogs/how-to-use-inch-to-cm-converter.html" style="color: var(--primary-color); text-decoration: none; font-weight: 500;">Learn how to use this tool effectively</a> with our comprehensive guide.</p>
+            
+            <div class="demo-notice" id="demo-notice">
+                <span>🔍 Demo values showing: 10 inches = 25.4 centimeters</span>
+                <button class="close-demo-btn" onclick="closeDemo()">×</button>
+            </div>
         </section>
 
         <footer>
