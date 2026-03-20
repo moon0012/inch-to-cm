@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0BMSYZ6DH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-C0BMSYZ6DH');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inch to CM Converter - Free Online Length Conversion Tool</title>
@@ -552,6 +561,51 @@
                 font-size: 0.85rem;
             }
         }
+
+        /* Breadcrumb Navigation */
+        .breadcrumb {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            background: var(--background-color);
+            border-radius: 8px;
+            padding: 12px 16px;
+        }
+
+        .breadcrumb li {
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumb li:not(:last-child)::after {
+            content: '›';
+            margin: 0 8px;
+            color: var(--border-color);
+        }
+
+        .breadcrumb li a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .breadcrumb li a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .breadcrumb li[aria-current="page"] {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* Breadcrumb Structured Data */
+        .breadcrumb-nav {
+            display: none; /* Hide from visual display, used for SEO */
+        }
     </style>
 </head>
 <body>
@@ -566,6 +620,36 @@
             <!-- Language Selector -->
             <div id="lang-selector"></div>
         </header>
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="Breadcrumb" class="breadcrumb">
+            <ol>
+                <li><a href="/">Home</a></li>
+                <li aria-current="page" data-i18n="breadcrumb_current">Inch to CM Converter</li>
+            </ol>
+        </nav>
+
+        <!-- Breadcrumb Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://inch-to-cm.online/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Inch to CM Converter",
+                    "item": "https://inch-to-cm.online/"
+                }
+            ]
+        }
+        </script>
 
         <section class="converter-section">
             <div class="converter-card">

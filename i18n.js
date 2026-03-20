@@ -40,6 +40,9 @@ const i18n = {
             about_guide: "with our comprehensive guide.",
             demo_notice: "Demo values showing: 10 inches = 25.4 centimeters",
 
+            // Breadcrumb
+            breadcrumb_current: "Inch to CM Converter",
+
             // FAQ
             faq_title: "Frequently Asked Questions",
             faq_q1: "What is the formula for converting inches to centimeters?",
@@ -108,6 +111,9 @@ const i18n = {
             about_guide: "查看我们的综合指南。",
             demo_notice: "演示值：10英寸 = 25.4厘米",
 
+            // Breadcrumb
+            breadcrumb_current: "英寸转厘米转换器",
+
             // FAQ
             faq_title: "常见问题",
             faq_q1: "英寸转厘米的公式是什么？",
@@ -171,6 +177,9 @@ const i18n = {
             about_learn: "このツールを効果的に使用する方法を学ぶ",
             about_guide: "総合ガイドをご覧ください。",
             demo_notice: "デモ値：10インチ = 25.4センチメートル",
+
+            // Breadcrumb
+            breadcrumb_current: "インチからセンチメートル変換",
 
             // FAQ
             faq_title: "よくある質問",
@@ -236,6 +245,9 @@ const i18n = {
             about_guide: "con nuestra guía completa.",
             demo_notice: "Valores de demostración: 10 pulgadas = 25.4 centímetros",
 
+            // Breadcrumb
+            breadcrumb_current: "Convertidor de Pulgadas a CM",
+
             // FAQ
             faq_title: "Preguntas Frecuentes",
             faq_q1: "¿Cuál es la fórmula para convertir pulgadas a centímetros?",
@@ -300,6 +312,9 @@ const i18n = {
             about_guide: "avec notre guide complet.",
             demo_notice: "Valeurs de démonstration: 10 pouces = 25.4 centimètres",
 
+            // Breadcrumb
+            breadcrumb_current: "Convertisseur Pouce en CM",
+
             // FAQ
             faq_title: "Questions Fréquentes",
             faq_q1: "Quelle est la formule pour convertir les pouces en centimètres?",
@@ -363,6 +378,9 @@ const i18n = {
             about_learn: "Erfahren Sie, wie Sie dieses Tool effektiv nutzen",
             about_guide: "mit unserem umfassenden Leitfaden.",
             demo_notice: "Demowerte: 10 Zoll = 25.4 Zentimeter",
+
+            // Breadcrumb
+            breadcrumb_current: "Zoll zu CM Umrechner",
 
             // FAQ
             faq_title: "Häufig gestellte Fragen",
