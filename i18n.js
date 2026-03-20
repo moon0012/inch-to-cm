@@ -84,6 +84,8 @@ const i18n = {
             // Footer
             footer_copyright: "© 2026 inch-to-cm.online - Free Online Length Conversion Tool",
             footer_tagline: "Accurate inch to cm and cm to inch conversions made simple",
+            footer_partners_label: "合作伙伴:",
+            footer_partners: "合作伙伴: OC-Role | OpenClaw101 | iTool",
             
             // Meta
             meta_title: "Inch to CM Converter - Free Online Length Conversion Tool",
@@ -152,6 +154,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - 免费在线长度转换工具",
             footer_tagline: "简单准确的英寸厘米互换转换",
+            footer_partners_label: "合作伙伴:",
+            footer_partners: "合作伙伴: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "英寸转厘米转换器 - 免费在线长度转换工具",
             meta_description: "即时将英寸转换为厘米，或将厘米转换为英寸。准确、快速、易用的长度转换工具。",
@@ -219,6 +223,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - 無料オンライン長さ変換ツール",
             footer_tagline: "シンプルで正確なインチ・センチ変換",
+            footer_partners_label: "パートナー:",
+            footer_partners: "パートナー: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "インチからセンチ変換 - 無料オンライン長さ変換ツール",
             meta_description: "インチをセンチメートルに、センチメートルをインチに即座に変換。正確、高速、使いやすい長さ変換ツール。",
@@ -286,6 +292,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - Herramienta Gratuita de Conversión de Longitud",
             footer_tagline: "Conversiones precisas de pulgadas a cm y de cm a pulgadas de forma sencilla",
+            footer_partners_label: "Socios:",
+            footer_partners: "Socios: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "Convertidor de Pulgadas a CM - Herramienta Gratuita de Conversión",
             meta_description: "Convierte pulgadas a centímetros y centímetros a pulgadas instantáneamente. Herramienta de conversión precisa, rápida y fácil de usar.",
@@ -353,6 +361,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - Outil Gratuit de Conversion de Longueur",
             footer_tagline: "Conversions précises pouces en cm et cm en pouces simplifiées",
+            footer_partners_label: "Partenaires:",
+            footer_partners: "Partenaires: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "Convertisseur Pouce en CM - Outil Gratuit de Conversion",
             meta_description: "Convertissez les pouces en centimètres et vice versa instantanément. Outil de conversion précis, rapide et facile à utiliser.",
@@ -420,6 +430,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - Kostenloses Online-Längen-Umrechnungstool",
             footer_tagline: "Präzise Zoll-cm und cm-Zoll Umrechnungen einfach gemacht",
+            footer_partners_label: "Partner:",
+            footer_partners: "Partner: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "Zoll zu CM Umrechner - Kostenloses Online-Längen-Umrechnungstool",
             meta_description: "Konvertieren Sie Zoll in Zentimeter und umgekehrt sofort. Präzises, schnelles und benutzerfreundliches Längen-Umrechnungstool.",
