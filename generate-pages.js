@@ -31,7 +31,6 @@ const NAV = `<nav class="site-nav"><div class="container">
 const FOOTER = `<footer><div class="container">
 <p>&copy; 2026 inch-to-cm.online. All rights reserved.</p>
 <p>Accurate inch to cm conversions &amp; size guides</p>
-<p style="margin-top:10px"><a href="https://oc-role.com" target="_blank" rel="noopener">Partner: OC-Role</a></p>
 </div></footer>`;
 
 const SHARED_JS = `<script>
