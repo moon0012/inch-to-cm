@@ -40,6 +40,9 @@ const i18n = {
             about_guide: "with our comprehensive guide.",
             demo_notice: "Demo values showing: 10 inches = 25.4 centimeters",
 
+            // Breadcrumb
+            breadcrumb_current: "Inch to CM Converter",
+
             // FAQ
             faq_title: "Frequently Asked Questions",
             faq_q1: "What is the formula for converting inches to centimeters?",
@@ -81,7 +84,9 @@ const i18n = {
             // Footer
             footer_copyright: "© 2026 inch-to-cm.online - Free Online Length Conversion Tool",
             footer_tagline: "Accurate inch to cm and cm to inch conversions made simple",
-            
+            footer_partners_label: "Partners:",
+            footer_partners: "Partners: OC-Role | OpenClaw101 | iTool",
+
             // Meta
             meta_title: "Inch to CM Converter - Free Online Length Conversion Tool",
             meta_description: "Convert inches to centimeters and centimeters to inches instantly. Accurate, fast, and easy-to-use length conversion tool.",
@@ -107,6 +112,9 @@ const i18n = {
             about_learn: "了解如何有效使用此工具",
             about_guide: "查看我们的综合指南。",
             demo_notice: "演示值：10英寸 = 25.4厘米",
+
+            // Breadcrumb
+            breadcrumb_current: "英寸转厘米转换器",
 
             // FAQ
             faq_title: "常见问题",
@@ -146,6 +154,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - 免费在线长度转换工具",
             footer_tagline: "简单准确的英寸厘米互换转换",
+            footer_partners_label: "合作伙伴:",
+            footer_partners: "合作伙伴: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "英寸转厘米转换器 - 免费在线长度转换工具",
             meta_description: "即时将英寸转换为厘米，或将厘米转换为英寸。准确、快速、易用的长度转换工具。",
@@ -171,6 +181,9 @@ const i18n = {
             about_learn: "このツールを効果的に使用する方法を学ぶ",
             about_guide: "総合ガイドをご覧ください。",
             demo_notice: "デモ値：10インチ = 25.4センチメートル",
+
+            // Breadcrumb
+            breadcrumb_current: "インチからセンチメートル変換",
 
             // FAQ
             faq_title: "よくある質問",
@@ -210,6 +223,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - 無料オンライン長さ変換ツール",
             footer_tagline: "シンプルで正確なインチ・センチ変換",
+            footer_partners_label: "パートナー:",
+            footer_partners: "パートナー: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "インチからセンチ変換 - 無料オンライン長さ変換ツール",
             meta_description: "インチをセンチメートルに、センチメートルをインチに即座に変換。正確、高速、使いやすい長さ変換ツール。",
@@ -235,6 +250,9 @@ const i18n = {
             about_learn: "Aprende a usar esta herramienta eficazmente",
             about_guide: "con nuestra guía completa.",
             demo_notice: "Valores de demostración: 10 pulgadas = 25.4 centímetros",
+
+            // Breadcrumb
+            breadcrumb_current: "Convertidor de Pulgadas a CM",
 
             // FAQ
             faq_title: "Preguntas Frecuentes",
@@ -274,6 +292,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - Herramienta Gratuita de Conversión de Longitud",
             footer_tagline: "Conversiones precisas de pulgadas a cm y de cm a pulgadas de forma sencilla",
+            footer_partners_label: "Socios:",
+            footer_partners: "Socios: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "Convertidor de Pulgadas a CM - Herramienta Gratuita de Conversión",
             meta_description: "Convierte pulgadas a centímetros y centímetros a pulgadas instantáneamente. Herramienta de conversión precisa, rápida y fácil de usar.",
@@ -299,6 +319,9 @@ const i18n = {
             about_learn: "Apprenez à utiliser cet outil efficacement",
             about_guide: "avec notre guide complet.",
             demo_notice: "Valeurs de démonstration: 10 pouces = 25.4 centimètres",
+
+            // Breadcrumb
+            breadcrumb_current: "Convertisseur Pouce en CM",
 
             // FAQ
             faq_title: "Questions Fréquentes",
@@ -338,6 +361,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - Outil Gratuit de Conversion de Longueur",
             footer_tagline: "Conversions précises pouces en cm et cm en pouces simplifiées",
+            footer_partners_label: "Partenaires:",
+            footer_partners: "Partenaires: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "Convertisseur Pouce en CM - Outil Gratuit de Conversion",
             meta_description: "Convertissez les pouces en centimètres et vice versa instantanément. Outil de conversion précis, rapide et facile à utiliser.",
@@ -363,6 +388,9 @@ const i18n = {
             about_learn: "Erfahren Sie, wie Sie dieses Tool effektiv nutzen",
             about_guide: "mit unserem umfassenden Leitfaden.",
             demo_notice: "Demowerte: 10 Zoll = 25.4 Zentimeter",
+
+            // Breadcrumb
+            breadcrumb_current: "Zoll zu CM Umrechner",
 
             // FAQ
             faq_title: "Häufig gestellte Fragen",
@@ -402,6 +430,8 @@ const i18n = {
             
             footer_copyright: "© 2026 inch-to-cm.online - Kostenloses Online-Längen-Umrechnungstool",
             footer_tagline: "Präzise Zoll-cm und cm-Zoll Umrechnungen einfach gemacht",
+            footer_partners_label: "Partner:",
+            footer_partners: "Partner: OC-Role | OpenClaw101 | iTool",
             
             meta_title: "Zoll zu CM Umrechner - Kostenloses Online-Längen-Umrechnungstool",
             meta_description: "Konvertieren Sie Zoll in Zentimeter und umgekehrt sofort. Präzises, schnelles und benutzerfreundliches Längen-Umrechnungstool.",
