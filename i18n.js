@@ -84,9 +84,9 @@ const i18n = {
             // Footer
             footer_copyright: "© 2026 inch-to-cm.online - Free Online Length Conversion Tool",
             footer_tagline: "Accurate inch to cm and cm to inch conversions made simple",
-            footer_partners_label: "合作伙伴:",
-            footer_partners: "合作伙伴: OC-Role | OpenClaw101 | iTool",
-            
+            footer_partners_label: "Partners:",
+            footer_partners: "Partners: OC-Role | OpenClaw101 | iTool",
+
             // Meta
             meta_title: "Inch to CM Converter - Free Online Length Conversion Tool",
             meta_description: "Convert inches to centimeters and centimeters to inches instantly. Accurate, fast, and easy-to-use length conversion tool.",

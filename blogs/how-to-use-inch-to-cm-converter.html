@@ -23,10 +23,15 @@
     <meta property="twitter:image" content="https://inch-to-cm.online/blogs/og-image-converter-guide.jpg">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="theme-color" content="#007AFF">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0BMSYZ6DH"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-C0BMSYZ6DH');</script>
+
     <title>How to Use Inch to CM Converter - Complete Guide & Examples | inch-to-cm.online</title>
-    
+
     <style>
         /* CSS Reset and Base Styles */
         * {
@@ -355,24 +360,40 @@
             color: var(--warning-color);
             font-weight: 500;
         }
+        /* Site Navigation */
+        .site-nav{background:var(--card-background);border-bottom:1px solid var(--border-color);position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(0,0,0,0.04);margin:-20px -20px 0 -20px;padding:0 20px}
+        .site-nav-inner{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1000px;margin:0 auto}
+        .nav-brand-link{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text-primary);font-weight:700;font-size:1.1rem}
+        .nav-menu{display:flex;gap:4px;list-style:none;align-items:center}
+        .nav-menu a{color:var(--text-secondary);text-decoration:none;padding:8px 14px;border-radius:8px;font-size:.9rem;font-weight:500;transition:var(--transition)}
+        .nav-menu a:hover,.nav-menu a.active{color:var(--primary-color);background:rgba(0,122,255,0.08)}
+        .site-breadcrumb{font-size:.9rem;color:var(--text-secondary);margin:20px 0}
+        .site-breadcrumb a{color:var(--primary-color);text-decoration:none}
+        .site-breadcrumb a:hover{text-decoration:underline}
+        @media(max-width:768px){.nav-menu{display:none}}
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Navigation -->
-        <nav class="navigation">
-            <a href="/" class="nav-link">
-                ← Back to Converter
-            </a>
-        </nav>
+    <!-- Site Navigation -->
+    <nav class="site-nav" style="margin:0;padding:0;position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #E5E5EA;box-shadow:0 1px 8px rgba(0,0,0,0.04)">
+        <div style="display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1000px;margin:0 auto;padding:0 20px">
+            <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#1D1D1F;font-weight:700;font-size:1.1rem"><span>📏</span> <span>inch-to-cm.online</span></a>
+            <ul style="display:flex;gap:4px;list-style:none;align-items:center">
+                <li><a href="/" style="color:#86868B;text-decoration:none;padding:8px 14px;border-radius:8px;font-size:.9rem;font-weight:500">Home</a></li>
+                <li><a href="/guides/" style="color:#86868B;text-decoration:none;padding:8px 14px;border-radius:8px;font-size:.9rem;font-weight:500">Guides</a></li>
+                <li><a href="/blogs/how-to-use-inch-to-cm-converter.html" style="color:#007AFF;text-decoration:none;padding:8px 14px;border-radius:8px;font-size:.9rem;font-weight:500;background:rgba(0,122,255,0.08)">Blog</a></li>
+                <li><a href="/about.html" style="color:#86868B;text-decoration:none;padding:8px 14px;border-radius:8px;font-size:.9rem;font-weight:500">About</a></li>
+                <li><a href="/contact.html" style="color:#86868B;text-decoration:none;padding:8px 14px;border-radius:8px;font-size:.9rem;font-weight:500">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="container">
         <!-- Breadcrumb -->
-        <div class="breadcrumb">
-            <a href="/">Home</a> 
-            <span>→</span> 
-            <a href="/blogs">Blogs</a> 
-            <span>→</span> 
-            <span>How to Use Inch to CM Converter</span>
+        <div class="site-breadcrumb" style="font-size:.9rem;color:#86868B;margin:20px 0">
+            <a href="/" style="color:#007AFF;text-decoration:none">Home</a> &rsaquo;
+            <a href="/blogs/how-to-use-inch-to-cm-converter.html" style="color:#007AFF;text-decoration:none">Blog</a> &rsaquo;
+            How to Use Inch to CM Converter
         </div>
 
         <header>
@@ -522,9 +543,19 @@
             <a href="/" class="cta-button">Use Converter Now</a>
         </div>
 
-        <footer>
-            <p>© 2025 inch-to-cm.online - Free Online Length Conversion Tool</p>
-            <p>Accurate inch to cm and cm to inch conversions made simple</p>
+        <footer style="text-align:center;padding:40px 0 24px;color:#86868B;border-top:1px solid #E5E5EA;margin-top:60px">
+            <p style="margin-bottom:10px">&copy; 2026 inch-to-cm.online. All rights reserved.</p>
+            <p style="margin-bottom:10px;font-size:.9rem">
+                <a href="/about.html" style="color:#86868B;text-decoration:none">About</a> &middot;
+                <a href="/contact.html" style="color:#86868B;text-decoration:none">Contact</a> &middot;
+                <a href="/privacy.html" style="color:#86868B;text-decoration:none">Privacy</a> &middot;
+                <a href="/terms.html" style="color:#86868B;text-decoration:none">Terms</a>
+            </p>
+            <p style="font-size:.82rem">
+                <a href="https://oc-role.com" target="_blank" rel="noopener noreferrer" style="color:#86868B;text-decoration:none">OC-Role</a> &middot;
+                <a href="https://openclaw101.vip" target="_blank" rel="noopener noreferrer" style="color:#86868B;text-decoration:none">OpenClaw101</a> &middot;
+                <a href="https://itool.online" target="_blank" rel="noopener noreferrer" style="color:#86868B;text-decoration:none">iTool</a>
+            </p>
         </footer>
     </div>
 </body>

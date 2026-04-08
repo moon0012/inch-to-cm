@@ -90,9 +90,51 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Blog -->
+  <!-- Disclaimer -->
+  <url>
+    <loc>https://inch-to-cm.online/disclaimer.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- 404 -->
+  <url>
+    <loc>https://inch-to-cm.online/404.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://inch-to-cm.online/blogs/</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Posts -->
   <url>
     <loc>https://inch-to-cm.online/blogs/how-to-use-inch-to-cm-converter.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://inch-to-cm.online/blogs/why-us-uses-inches.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://inch-to-cm.online/blogs/inch-measurements-in-daily-life.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://inch-to-cm.online/blogs/history-of-measurement-systems.html</loc>
     <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
