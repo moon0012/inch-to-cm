@@ -17,6 +17,10 @@ function ensureDir(dir) {
 // ============================================================
 // Shared HTML snippets
 // ============================================================
+const GA_TAG = `<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0BMSYZ6DH"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","G-C0BMSYZ6DH")</script>`;
+
 const NAV = `<nav class="site-nav"><div class="container">
 <a href="/" class="logo-link">📏 Inch-to-CM</a>
 <div class="nav-links">
@@ -24,11 +28,19 @@ const NAV = `<nav class="site-nav"><div class="container">
 <a href="/tv-size-conversion">TV Sizes</a>
 <a href="/height-conversion">Height</a>
 <a href="/clothing-size-conversion">Clothing</a>
+<a href="/guides/">Guides</a>
 <a href="/blogs/">Blog</a>
 </div>
 </div></nav>`;
 
 const FOOTER = `<footer><div class="container">
+<div class="footer-links">
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy Policy</a>
+<a href="/terms.html">Terms of Service</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</div>
 <p>&copy; 2026 inch-to-cm.online. All rights reserved.</p>
 <p>Accurate inch to cm conversions &amp; size guides</p>
 </div></footer>`;
@@ -134,12 +146,15 @@ function generateConversionPage(inch) {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
+${GA_TAG}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${inch} Inch in CM (${titleSuffix})</title>
 <meta name="description" content="${inch} inches equals ${cm} cm. Convert ${inch} inch to centimeters instantly. Includes size charts and practical examples for ${inch}-inch measurements.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/${inch}-inch-to-cm/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#007AFF">
 <link rel="stylesheet" href="/shared-styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -250,12 +265,15 @@ function generateTVPage(inch) {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
+${GA_TAG}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${inch} Inch TV Dimensions in CM – Width, Height &amp; Size Guide (2026)</title>
 <meta name="description" content="${inch} inch TV is ${cm} cm diagonally, ~${w} cm wide and ~${h} cm tall. Complete ${inch}-inch TV size guide with dimensions, viewing distance, and room recommendations.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/${inch}-inch-tv-in-cm/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#007AFF">
 <link rel="stylesheet" href="/shared-styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -354,12 +372,15 @@ function generateChartPage() {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
+${GA_TAG}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inch to CM Chart – Full Conversion Table (1-100 Inches)</title>
 <meta name="description" content="Complete inch to cm conversion chart from 1 to 100 inches. Quick reference table with all values. Bookmark this page for instant conversions.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/inch-to-cm-chart/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#007AFF">
 <link rel="stylesheet" href="/shared-styles.css">
 </head>
 <body>
@@ -416,12 +437,15 @@ function generateTVAggregate() {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
+${GA_TAG}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TV Size Conversion Chart – All TV Dimensions in CM (2026 Guide)</title>
 <meta name="description" content="Complete TV size conversion chart. Find the exact dimensions of every TV size from 24 to 85 inches in centimeters.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/tv-size-conversion/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#007AFF">
 <link rel="stylesheet" href="/shared-styles.css">
 </head>
 <body>
@@ -494,12 +518,15 @@ function generateHeightPage() {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
+${GA_TAG}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Height Conversion Chart – Feet &amp; Inches to CM (2026)</title>
 <meta name="description" content="Convert height from feet and inches to centimeters. Complete height conversion chart from 4'0 to 7'0 with cm values.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/height-conversion/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#007AFF">
 <link rel="stylesheet" href="/shared-styles.css">
 </head>
 <body>
@@ -558,12 +585,15 @@ function generateClothingPage() {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
+${GA_TAG}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Clothing Size Conversion – Inches to CM for Waist, Chest &amp; More</title>
 <meta name="description" content="Convert clothing measurements from inches to centimeters. Waist, chest, hip, and inseam conversion charts for US, UK, and EU sizing.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/clothing-size-conversion/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#007AFF">
 <link rel="stylesheet" href="/shared-styles.css">
 </head>
 <body>
@@ -656,9 +686,28 @@ function generateSitemap(conversionPages) {
   
   // Blog pages
   urls.push({ loc: '/blogs/', priority: '0.7', changefreq: 'weekly' });
-  ['tv-size-guide-2026', '55-vs-65-inch-tv', '32-vs-40-inch-tv', 'how-to-measure-tv-size', 'how-to-convert-inches-to-cm', 'height-conversion-chart'].forEach(slug => {
+  ['tv-size-guide-2026', '55-vs-65-inch-tv', '32-vs-40-inch-tv', 'how-to-measure-tv-size',
+   'how-to-convert-inches-to-cm', 'how-to-use-inch-to-cm-converter', 'height-conversion-chart',
+   'best-tv-size-bedroom', 'tv-size-vs-viewing-distance', '32-vs-43-vs-55-inch-tv',
+   'average-height-by-country', 'is-180-cm-tall', 'us-vs-eu-size-conversion',
+   'waist-size-chart-cm', 'history-of-measurement-systems', 'kids-height-growth-chart',
+   'paper-sizes-a4-letter-in-cm', 'shoe-size-conversion-guide'
+  ].forEach(slug => {
     urls.push({ loc: `/blogs/${slug}.html`, priority: '0.7', changefreq: 'monthly' });
   });
+
+  // Legal / Info pages
+  urls.push({ loc: '/about.html', priority: '0.5', changefreq: 'monthly' });
+  urls.push({ loc: '/contact.html', priority: '0.5', changefreq: 'monthly' });
+  urls.push({ loc: '/privacy.html', priority: '0.5', changefreq: 'monthly' });
+  urls.push({ loc: '/terms.html', priority: '0.5', changefreq: 'monthly' });
+  urls.push({ loc: '/disclaimer.html', priority: '0.5', changefreq: 'monthly' });
+
+  // Guide pages
+  urls.push({ loc: '/guides/', priority: '0.8', changefreq: 'monthly' });
+
+  // Convert pages
+  urls.push({ loc: '/convert/', priority: '0.8', changefreq: 'monthly' });
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
